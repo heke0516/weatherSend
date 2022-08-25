@@ -70,8 +70,8 @@ def get_ciba():
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     r = get(url, headers=headers)
-    note_en = r.json()["note"]
-    note_ch = r.json()["content"]
+    note_en = r.json()["content"]
+    note_ch = r.json()["今天也要努力哦！"]
     return note_ch, note_en
  
  
